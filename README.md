@@ -8,4 +8,7 @@ Preserve the capitalization of every character.
 
 Function Format: rotate_word(text)
 
+def rotate_word(text): #defines rotate_word() as a function.
+    return text[1:] + text[0] #returns the second element up until the last element and then adds the first element.
+
 
